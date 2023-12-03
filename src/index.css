@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+	--bg-color: #0f0f0f;
+	--text-color: #eeeeee;
+	--placeholder-color: #aaaaaa;
+	--reset-color: #ed6a6a;
+	--text-weight: 200;
+	--timer-weight: 700;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	font-family: 'Lexend Exa';
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}

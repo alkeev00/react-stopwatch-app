@@ -1,0 +1,49 @@
+.timer__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.timer__title {
+	font-size: 3rem;
+	font-weight: var(--text-weight);
+	text-align: center;
+}
+
+.timer {
+	font-size: 7rem;
+	font-weight: var(--timer-weight);
+}
+
+.timer__btn {
+	width: 200px;
+	height: 60px;
+	font-family: 'Lexend Exa';
+	font-size: 1.7rem;
+	font-weight: var(--text-weight);
+	text-transform: uppercase;
+	color: var(--text-color);
+	background-color: transparent;
+	outline: none;
+	border: 1px solid var(--text-color);
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.15s ease-in-out;
+}
+
+.timer__btn:hover {
+	color: var(--bg-color);
+	background-color: var(--text-color);
+}
+
+.reset__btn {
+	color: var(--reset-color);
+	border: 1px solid var(--reset-color);
+}
+
+.reset__btn:hover {
+	color: var(--bg-color);
+	background-color: var(--reset-color);
+}

@@ -1,0 +1,11 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Lexend Exa';
+	font-weight: 400;
+	font-size: 2rem;
+	color: var(--text-color);
+}
